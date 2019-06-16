@@ -32,24 +32,21 @@ footer{
     margin: 20px;
     padding: 60px;
     clear: both;
+    overflow: auto;
 }
 
 .columnleft{
-    width: auto;
-    margin: 10px;
+    background-color: #ebebeb;
+    width: 45%;
+    margin-left: 20px;
+    margin-bottom: 20px;
     float: left;
-    clear: right;
+    padding: 10px;
   }
 .columnright{
-    width: auto;
-    margin: 10px;
-    float: left;
-    clear: right;
+    background-color: #ebebeb;
+    width: 45%;
+    margin-right: 20px;
+    float: right;
+    padding: 10px;
 }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
